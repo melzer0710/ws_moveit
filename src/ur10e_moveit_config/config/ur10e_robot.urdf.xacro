@@ -27,5 +27,13 @@
 
     <!-- ROS2 control plugin -->
     <xacro:ur10e_robot_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+    
+    <!-- ros2_control Gazebo Plugin -->
+    <gazebo>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+        <robot_namespace>/</robot_namespace>
+        <ros_control_namespace>/</ros_control_namespace>
+    </plugin>
+    </gazebo>
 
 </robot>

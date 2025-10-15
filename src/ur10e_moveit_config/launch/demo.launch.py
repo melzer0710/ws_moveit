@@ -15,7 +15,7 @@ def generate_launch_description():
     # --- Xacro in URDF konvertieren ---
     urdf_xacro_path = os.path.join(
         get_package_share_directory("ur10e_moveit_config"),
-        "urdf",
+        "config",
         "ur10e_robot.urdf.xacro"
     )
     urdf_path = "/tmp/ur10e_robot.urdf"
@@ -76,7 +76,7 @@ def generate_launch_description():
         actions=[Node(
             package="controller_manager",
             executable="spawner",
-            arguments=["ur10e_arm_controller"],
+            arguments=["arm_controller"],
             output="screen"
         )]
     )
