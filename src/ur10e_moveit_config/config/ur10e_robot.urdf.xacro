@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ur10e_robot">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Dummy link "world" als Basis der Szene -->
+    <link name="world"/>
+    
+    <!-- Import ur10e_robot URDF -->
+    <xacro:include filename="$(find ur_description)/urdf/ur10e.urdf" />
+
+    <!-- Import ros2_control -->
+    <xacro:include filename="ur10e_robot.ros2_control.xacro" />
+
+    <!-- Import table macro -->
+    <xacro:include filename="$(find ur10e_moveit_config)/config/simple_table.urdf.xacro"/>
+
+    <!-- Instantiate table and attach to world -->
+    <xacro:simple_table prefix="table_" parent="world" xyz="0 0 0" rpy="0 0 0"/>
+
+    <!-- Fix the UR10e base on top of the table -->
+    <joint name="ur10e_on_table" type="fixed">
+        <parent link="table_table_top"/>
+        <child link="base_link"/>
+        <!-- Z-Versatz entspricht Tischhöhe (0.05 m dick) -->
+        <origin xyz="0 0 0.10" rpy="0 0 0"/>
+    </joint>
+
+    <!-- ROS2 control plugin -->
+    <xacro:ur10e_robot_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

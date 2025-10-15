@@ -1,0 +1,16 @@
+/home/matteo-melzer/ws_moveit/install/hello_moveit/lib/hello_moveit/hello_moveit
+/home/matteo-melzer/ws_moveit/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+/home/matteo-melzer/ws_moveit/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+/home/matteo-melzer/ws_moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+/home/matteo-melzer/ws_moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+/home/matteo-melzer/ws_moveit/install/hello_moveit/share/hello_moveit/environment/path.sh
+/home/matteo-melzer/ws_moveit/install/hello_moveit/share/hello_moveit/environment/path.dsv
+/home/matteo-melzer/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.bash
+/home/matteo-melzer/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.sh
+/home/matteo-melzer/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.zsh
+/home/matteo-melzer/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.dsv
+/home/matteo-melzer/ws_moveit/install/hello_moveit/share/hello_moveit/package.dsv
+/home/matteo-melzer/ws_moveit/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+/home/matteo-melzer/ws_moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+/home/matteo-melzer/ws_moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+/home/matteo-melzer/ws_moveit/install/hello_moveit/share/hello_moveit/package.xml

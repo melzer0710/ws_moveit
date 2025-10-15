@@ -1,0 +1,1 @@
+/home/matteo-melzer/ws_moveit/src/ur10e_moveit_config/launch/warehouse_db.launch.py

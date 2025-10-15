@@ -1,0 +1,15 @@
+/home/matteo-melzer/ws_moveit/install/moveit_ros/share/ament_index/resource_index/package_run_dependencies/moveit_ros
+/home/matteo-melzer/ws_moveit/install/moveit_ros/share/ament_index/resource_index/parent_prefix_path/moveit_ros
+/home/matteo-melzer/ws_moveit/install/moveit_ros/share/moveit_ros/environment/ament_prefix_path.sh
+/home/matteo-melzer/ws_moveit/install/moveit_ros/share/moveit_ros/environment/ament_prefix_path.dsv
+/home/matteo-melzer/ws_moveit/install/moveit_ros/share/moveit_ros/environment/path.sh
+/home/matteo-melzer/ws_moveit/install/moveit_ros/share/moveit_ros/environment/path.dsv
+/home/matteo-melzer/ws_moveit/install/moveit_ros/share/moveit_ros/local_setup.bash
+/home/matteo-melzer/ws_moveit/install/moveit_ros/share/moveit_ros/local_setup.sh
+/home/matteo-melzer/ws_moveit/install/moveit_ros/share/moveit_ros/local_setup.zsh
+/home/matteo-melzer/ws_moveit/install/moveit_ros/share/moveit_ros/local_setup.dsv
+/home/matteo-melzer/ws_moveit/install/moveit_ros/share/moveit_ros/package.dsv
+/home/matteo-melzer/ws_moveit/install/moveit_ros/share/ament_index/resource_index/packages/moveit_ros
+/home/matteo-melzer/ws_moveit/install/moveit_ros/share/moveit_ros/cmake/moveit_rosConfig.cmake
+/home/matteo-melzer/ws_moveit/install/moveit_ros/share/moveit_ros/cmake/moveit_rosConfig-version.cmake
+/home/matteo-melzer/ws_moveit/install/moveit_ros/share/moveit_ros/package.xml

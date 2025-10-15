@@ -1,0 +1,15 @@
+/home/matteo-melzer/ws_moveit/install/moveit_resources/share/ament_index/resource_index/package_run_dependencies/moveit_resources
+/home/matteo-melzer/ws_moveit/install/moveit_resources/share/ament_index/resource_index/parent_prefix_path/moveit_resources
+/home/matteo-melzer/ws_moveit/install/moveit_resources/share/moveit_resources/environment/ament_prefix_path.sh
+/home/matteo-melzer/ws_moveit/install/moveit_resources/share/moveit_resources/environment/ament_prefix_path.dsv
+/home/matteo-melzer/ws_moveit/install/moveit_resources/share/moveit_resources/environment/path.sh
+/home/matteo-melzer/ws_moveit/install/moveit_resources/share/moveit_resources/environment/path.dsv
+/home/matteo-melzer/ws_moveit/install/moveit_resources/share/moveit_resources/local_setup.bash
+/home/matteo-melzer/ws_moveit/install/moveit_resources/share/moveit_resources/local_setup.sh
+/home/matteo-melzer/ws_moveit/install/moveit_resources/share/moveit_resources/local_setup.zsh
+/home/matteo-melzer/ws_moveit/install/moveit_resources/share/moveit_resources/local_setup.dsv
+/home/matteo-melzer/ws_moveit/install/moveit_resources/share/moveit_resources/package.dsv
+/home/matteo-melzer/ws_moveit/install/moveit_resources/share/ament_index/resource_index/packages/moveit_resources
+/home/matteo-melzer/ws_moveit/install/moveit_resources/share/moveit_resources/cmake/moveit_resourcesConfig.cmake
+/home/matteo-melzer/ws_moveit/install/moveit_resources/share/moveit_resources/cmake/moveit_resourcesConfig-version.cmake
+/home/matteo-melzer/ws_moveit/install/moveit_resources/share/moveit_resources/package.xml

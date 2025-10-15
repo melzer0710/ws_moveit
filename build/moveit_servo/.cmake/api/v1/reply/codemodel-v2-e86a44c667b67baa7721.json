@@ -1,0 +1,229 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-a5058e7cd878edd4e3ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_servo",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fake_command_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fake_command_publisher-Release-64db548f02a29065119e.json",
+					"name" : "fake_command_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-4c11b6ffe027b613fbd8.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-01a521a04728322a635f.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_servo_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_servo_lib-Release-96f8afafb51c7393aea8.json",
+					"name" : "moveit_servo_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_servo_lib_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_servo_lib_parameters-Release-e98b3f7101dc23d42131.json",
+					"name" : "moveit_servo_lib_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_servo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_servo_uninstall-Release-e6c205d47e3c03570af2.json",
+					"name" : "moveit_servo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_tracking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_tracking-Release-37621fc371fc02cb2071.json",
+					"name" : "pose_tracking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_calcs_unit_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_calcs_unit_tests-Release-e6281eb236c6a0b4b3d7.json",
+					"name" : "servo_calcs_unit_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_controller_input::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_controller_input-Release-b1ed0574cd900f18d191.json",
+					"name" : "servo_controller_input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_node-Release-6147795fdd7e563cb850.json",
+					"name" : "servo_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_node_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_node_main-Release-a3f87900a87c239f2a1a.json",
+					"name" : "servo_node_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_pose_tracking_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_pose_tracking_demo-Release-cfb728a40d2161571549.json",
+					"name" : "servo_pose_tracking_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_servo_collision::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_servo_collision-Release-992cd45546bad312b1db.json",
+					"name" : "test_servo_collision",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_servo_integration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_servo_integration-Release-622a76703b391bd70346.json",
+					"name" : "test_servo_integration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_servo_pose_tracking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_servo_pose_tracking-Release-dba12f5c1f91ff1d234d.json",
+					"name" : "test_servo_pose_tracking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-774d8b3cbab19ffab2bf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/matteo-melzer/ws_moveit/build/moveit_servo",
+		"source" : "/home/matteo-melzer/ws_moveit/src/moveit2/moveit_ros/moveit_servo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

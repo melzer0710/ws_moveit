@@ -1,0 +1,105 @@
+[0.020s] Invoking command in '/home/matteo-melzer/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/ws_moveit/src/srdfdom -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/ws_moveit/install/srdfdom
+[0.165s] -- The CXX compiler identification is GNU 11.4.0
+[0.181s] -- Detecting CXX compiler ABI info
+[0.385s] -- Detecting CXX compiler ABI info - done
+[0.397s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.398s] -- Detecting CXX compile features
+[0.399s] -- Detecting CXX compile features - done
+[0.431s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.466s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.756s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.907s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.136s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.289s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.305s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.234s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.291s] -- The C compiler identification is GNU 11.4.0
+[2.305s] -- Detecting C compiler ABI info
+[2.450s] -- Detecting C compiler ABI info - done
+[2.461s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.461s] -- Detecting C compile features
+[2.461s] -- Detecting C compile features - done
+[2.467s] -- Looking for C++ include pthread.h
+[2.691s] -- Looking for C++ include pthread.h - found
+[2.691s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.818s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.819s] -- Found Threads: TRUE  
+[2.833s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.870s] -- Configuring done
+[2.920s] -- Generating done
+[2.934s] -- Build files have been written to: /home/matteo-melzer/ws_moveit/build/srdfdom
+[3.413s] Invoked command in '/home/matteo-melzer/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/ws_moveit/src/srdfdom -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/ws_moveit/install/srdfdom
+[3.414s] Invoking command in '/home/matteo-melzer/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/ws_moveit/build/srdfdom -- -j2 -l2
+[3.543s] [  0%] Built target ament_cmake_python_copy_srdfdom
+[3.555s] [  9%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[3.589s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.913s] [ 27%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.021s] [ 27%] Built target gtest_main
+[6.092s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.328s] [ 45%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[11.387s] [ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[11.747s] [ 54%] Built target srdfdom
+[12.365s] running egg_info
+[12.365s] creating srdfdom.egg-info
+[12.367s] writing srdfdom.egg-info/PKG-INFO
+[12.369s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[12.370s] writing top-level names to srdfdom.egg-info/top_level.txt
+[12.371s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[12.380s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[12.383s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[12.487s] [ 54%] Built target ament_cmake_python_build_srdfdom_egg
+[13.089s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[13.189s] [ 63%] Built target gtest
+[13.228s] [ 72%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[13.255s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[16.090s] [ 90%] [32m[1mLinking CXX executable test_cpp_C[0m
+[16.300s] [100%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[16.415s] [100%] Built target test_cpp_C
+[16.561s] [100%] Built target test_cpp_nl_NL.UTF-8
+[16.599s] Invoked command in '/home/matteo-melzer/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/ws_moveit/build/srdfdom -- -j2 -l2
+[16.599s] Invoking command in '/home/matteo-melzer/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/ws_moveit/build/srdfdom
+[16.628s] -- Install configuration: ""
+[16.629s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/lib/libsrdfdom.so.2.0.8
+[16.634s] -- Set runtime path of "/home/matteo-melzer/ws_moveit/install/srdfdom/lib/libsrdfdom.so.2.0.8" to ""
+[16.636s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/lib/libsrdfdom.so
+[16.636s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/include/srdfdom
+[16.636s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/include/srdfdom/srdfdom
+[16.637s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/include/srdfdom/srdfdom/model.h
+[16.639s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/include/srdfdom/srdfdom/visibility_control.h
+[16.639s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/include/srdfdom/srdfdom/srdf_writer.h
+[16.639s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/lib/srdfdom/display_srdf
+[16.642s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[16.645s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[16.652s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info
+[16.654s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/dependency_links.txt
+[16.654s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/SOURCES.txt
+[16.654s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/PKG-INFO
+[16.654s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.8-py3.10.egg-info/top_level.txt
+[16.654s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[16.655s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[16.655s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[16.720s] Listing '/home/matteo-melzer/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[16.720s] Compiling '/home/matteo-melzer/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py'...
+[16.721s] Compiling '/home/matteo-melzer/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py'...
+[16.726s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/environment/library_path.sh
+[16.726s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[16.726s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[16.727s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[16.727s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[16.728s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[16.730s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/environment/path.sh
+[16.732s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/environment/path.dsv
+[16.732s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/local_setup.bash
+[16.732s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/local_setup.sh
+[16.732s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/local_setup.zsh
+[16.733s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/local_setup.dsv
+[16.733s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/package.dsv
+[16.734s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[16.734s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[16.735s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-noconfig.cmake
+[16.736s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[16.736s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.737s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[16.737s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[16.738s] -- Installing: /home/matteo-melzer/ws_moveit/install/srdfdom/share/srdfdom/package.xml
+[16.741s] Invoked command in '/home/matteo-melzer/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/ws_moveit/build/srdfdom

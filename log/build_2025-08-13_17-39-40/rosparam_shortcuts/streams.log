@@ -1,0 +1,96 @@
+[0.029s] Invoking command in '/home/matteo-melzer/ws_moveit/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/ws_moveit/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/ws_moveit/install/rosparam_shortcuts
+[0.044s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.233s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.235s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.258s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.262s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.265s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.275s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.317s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.340s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.346s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.524s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.585s] -- Found tf2_eigen: 0.25.13 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.745s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.747s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.752s] -- Found ros_testing: 0.4.0 (/opt/ros/humble/share/ros_testing/cmake)
+[0.754s] -- Found launch_testing_ament_cmake: 1.0.9 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.754s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.794s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.794s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.795s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.920s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.955s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.970s] -- Added test 'lint_cmake' to check CMake code style
+[0.970s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.971s] -- Added test 'xmllint' to check XML markup files
+[0.983s] -- Configuring done
+[1.061s] -- Generating done
+[1.087s] -- Build files have been written to: /home/matteo-melzer/ws_moveit/build/rosparam_shortcuts
+[1.100s] Invoked command in '/home/matteo-melzer/ws_moveit/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/ws_moveit/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/ws_moveit/install/rosparam_shortcuts
+[1.101s] Invoking command in '/home/matteo-melzer/ws_moveit/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/ws_moveit/build/rosparam_shortcuts -- -j2 -l2
+[1.209s] [35m[1mConsolidate compiler generated dependencies of target rosparam_shortcuts[0m
+[1.261s] [  7%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts.dir/src/node_parameters.cpp.o[0m
+[5.050s] [ 15%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts.dir/src/rosparam_shortcuts.cpp.o[0m
+[11.253s] [ 23%] [32m[1mLinking CXX shared library librosparam_shortcuts.so[0m
+[11.375s] [ 23%] Built target rosparam_shortcuts
+[11.396s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[11.424s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[12.224s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[12.276s] [ 38%] Built target gtest_main
+[12.297s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[12.325s] [ 46%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[19.084s] [ 53%] [32m[1mLinking CXX static library libgtest.a[0m
+[19.155s] [ 53%] Built target gtest
+[19.175s] [35m[1mConsolidate compiler generated dependencies of target rosparam_shortcuts_example[0m
+[19.216s] [ 61%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts_example.dir/src/example.cpp.o[0m
+[23.297s] [ 69%] [32m[1mLinking CXX executable example[0m
+[23.469s] [ 69%] Built target rosparam_shortcuts_example
+[23.490s] [35m[1mConsolidate compiler generated dependencies of target rosparam_shortcuts_node_parameters_example[0m
+[23.518s] [ 76%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts_node_parameters_example.dir/src/node_parameters_example.cpp.o[0m
+[27.087s] [ 84%] [32m[1mLinking CXX executable node_parameters_example[0m
+[27.209s] [ 84%] Built target rosparam_shortcuts_node_parameters_example
+[27.233s] [35m[1mConsolidate compiler generated dependencies of target test_node_parameters[0m
+[27.266s] [ 92%] [32mBuilding CXX object CMakeFiles/test_node_parameters.dir/test/test_node_parameters.cpp.o[0m
+[32.221s] [100%] [32m[1mLinking CXX executable test_node_parameters[0m
+[32.362s] [100%] Built target test_node_parameters
+[32.394s] Invoked command in '/home/matteo-melzer/ws_moveit/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/ws_moveit/build/rosparam_shortcuts -- -j2 -l2
+[32.395s] Invoking command in '/home/matteo-melzer/ws_moveit/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/ws_moveit/build/rosparam_shortcuts
+[32.411s] -- Install configuration: "Release"
+[32.417s] -- Installing: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/lib/librosparam_shortcuts.so
+[32.418s] -- Set runtime path of "/home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/lib/librosparam_shortcuts.so" to ""
+[32.419s] -- Installing: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/lib/rosparam_shortcuts/example
+[32.421s] -- Set runtime path of "/home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/lib/rosparam_shortcuts/example" to ""
+[32.423s] -- Installing: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example
+[32.425s] -- Set runtime path of "/home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example" to ""
+[32.425s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/include
+[32.426s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/include/rosparam_shortcuts
+[32.426s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/include/rosparam_shortcuts/node_parameters.h
+[32.426s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/include/rosparam_shortcuts/rosparam_shortcuts.h
+[32.428s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/launch
+[32.428s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/launch/example.launch.py
+[32.428s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/config
+[32.428s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/config/example.yaml
+[32.428s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.sh
+[32.428s] -- Installing: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.dsv
+[32.430s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/ament_index/resource_index/package_run_dependencies/rosparam_shortcuts
+[32.430s] -- Installing: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/ament_index/resource_index/parent_prefix_path/rosparam_shortcuts
+[32.430s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.sh
+[32.430s] -- Installing: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.dsv
+[32.430s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.sh
+[32.430s] -- Installing: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.dsv
+[32.430s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.bash
+[32.430s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.sh
+[32.430s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.zsh
+[32.431s] -- Installing: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.dsv
+[32.432s] -- Installing: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/package.dsv
+[32.432s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/ament_index/resource_index/packages/rosparam_shortcuts
+[32.434s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake
+[32.434s] -- Installing: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport-release.cmake
+[32.434s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_targets-extras.cmake
+[32.434s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.436s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig.cmake
+[32.436s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig-version.cmake
+[32.437s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/rosparam_shortcuts/share/rosparam_shortcuts/package.xml
+[32.440s] Invoked command in '/home/matteo-melzer/ws_moveit/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/ws_moveit/build/rosparam_shortcuts

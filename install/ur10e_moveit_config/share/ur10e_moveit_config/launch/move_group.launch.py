@@ -1,0 +1,1 @@
+/home/matteo-melzer/ws_moveit/src/ur10e_moveit_config/launch/move_group.launch.py

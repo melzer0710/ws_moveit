@@ -1,0 +1,1 @@
+/home/matteo-melzer/ws_moveit/build/ur10e_moveit_config/ament_cmake_environment_hooks/local_setup.sh
