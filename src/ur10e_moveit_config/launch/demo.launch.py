@@ -1,6 +1,7 @@
 import os
 from launch import LaunchDescription
-from launch.actions import ExecuteProcess, TimerAction
+from launch.actions import ExecuteProcess, TimerAction, RegisterEventHandler
+from launch.event_handlers import OnProcessStart
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
 from moveit_configs_utils import MoveItConfigsBuilder
@@ -42,33 +43,33 @@ def generate_launch_description():
             arguments=[
                 '-entity', 'ur10e_robot',
                 '-file', urdf_path,
-                '-x', '0', '-y', '0', '-z', '0.15'
+                '-x', '0', '-y', '0', '-z', '0.0'
             ],
             output='screen'
         )]
     )
     ld.add_action(spawn_robot)
 
-    # --- Tisch spawnen ---
-    table_file = os.path.join(
-        get_package_share_directory("ur10e_moveit_config"),
-        "config",
-        "simple_table.urdf"
-    )
-    spawn_table = TimerAction(
-        period=7.0,
-        actions=[Node(
-            package='gazebo_ros',
-            executable='spawn_entity.py',
-            arguments=[
-                '-entity', 'simple_table',
-                '-file', table_file,
-                '-x', '0', '-y', '0', '-z', '0.0'
-            ],
-            output='screen'
-        )]
-    )
-    ld.add_action(spawn_table)
+    # # --- Tisch spawnen ---
+    # table_file = os.path.join(
+    #     get_package_share_directory("ur10e_moveit_config"),
+    #     "config",
+    #     "simple_table.urdf"
+    # )
+    # spawn_table = TimerAction(
+    #     period=7.0,
+    #     actions=[Node(
+    #         package='gazebo_ros',
+    #         executable='spawn_entity.py',
+    #         arguments=[
+    #             '-entity', 'simple_table',
+    #             '-file', table_file,
+    #             '-x', '0', '-y', '0', '-z', '0.0'
+    #         ],
+    #         output='screen'
+    #     )]
+    # )
+    # ld.add_action(spawn_table)
 
     joint_state_broadcaster = TimerAction(
         period=7.5, # nach Spawn, vor dem arm_controller
@@ -82,16 +83,28 @@ def generate_launch_description():
     ld.add_action(joint_state_broadcaster)
 
     # --- Controller Spawner starten ---
-    arm_controller = TimerAction(
-        period=9.0,
-        actions=[Node(
+    arm_controller = Node(
             package="controller_manager",
             executable="spawner",
-            arguments=["arm_controller"],
-            output="screen"
-        )]
-    )
+            arguments=["arm_controller", "--controller-manager", "/controller_manager"],
+        )
     ld.add_action(arm_controller)
+
+    set_initial_pose = RegisterEventHandler(
+        event_handler=OnProcessStart(
+            target_action=arm_controller,
+            on_start=[
+                ExecuteProcess(
+                    cmd=['ros2', 'topic', 'pub', '-t', '1', '/arm_controller/joint_trajectory',
+                         'trajectory_msgs/msg/JointTrajectory',
+                         '{ "joint_names": ["shoulder_pan_joint", "shoulder_lift_joint", "elbow_joint", "wrist_1_joint", "wrist_2_joint", "wrist_3_joint"], "points": [ { "positions": [0.0, -1.57, 1.57, -1.57, -1.57, 0.0], "time_from_start": { "sec": 1 } } ] }'
+                    ],
+                    shell=True
+                )
+            ]
+        )
+    )
+    ld.add_action(set_initial_pose)
 
     # --- MoveIt Demo starten (RViz + Motion Planning) ---
     moveit_demo = generate_demo_launch(moveit_config)

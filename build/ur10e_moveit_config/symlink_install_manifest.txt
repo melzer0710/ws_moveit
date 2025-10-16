@@ -19,6 +19,7 @@
 /home/matteo-melzer/ws_moveit/install/ur10e_moveit_config/share/ur10e_moveit_config/launch/moveit_rviz.launch.py
 /home/matteo-melzer/ws_moveit/install/ur10e_moveit_config/share/ur10e_moveit_config/launch/rsp.launch.py
 /home/matteo-melzer/ws_moveit/install/ur10e_moveit_config/share/ur10e_moveit_config/launch/setup_assistant.launch.py
+/home/matteo-melzer/ws_moveit/install/ur10e_moveit_config/share/ur10e_moveit_config/launch/setup_assistant_custom.launch.py
 /home/matteo-melzer/ws_moveit/install/ur10e_moveit_config/share/ur10e_moveit_config/launch/spawn_controllers.launch.py
 /home/matteo-melzer/ws_moveit/install/ur10e_moveit_config/share/ur10e_moveit_config/launch/static_virtual_joint_tfs.launch.py
 /home/matteo-melzer/ws_moveit/install/ur10e_moveit_config/share/ur10e_moveit_config/launch/warehouse_db.launch.py
