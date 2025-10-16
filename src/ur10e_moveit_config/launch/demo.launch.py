@@ -70,9 +70,20 @@ def generate_launch_description():
     )
     ld.add_action(spawn_table)
 
+    joint_state_broadcaster = TimerAction(
+        period=7.5, # nach Spawn, vor dem arm_controller
+        actions=[Node(
+            package="controller_manager",
+            executable="spawner",
+            arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
+            output="screen"
+        )]
+    )
+    ld.add_action(joint_state_broadcaster)
+
     # --- Controller Spawner starten ---
     arm_controller = TimerAction(
-        period=8.0,
+        period=9.0,
         actions=[Node(
             package="controller_manager",
             executable="spawner",

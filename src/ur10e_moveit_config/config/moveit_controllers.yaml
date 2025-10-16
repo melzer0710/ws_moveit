@@ -5,7 +5,7 @@ moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControll
 moveit_simple_controller_manager:
   controller_names:
     - arm_controller
-    - hand_controller
+#   - hand_controller
 
   arm_controller:
     type: FollowJointTrajectory
@@ -15,13 +15,13 @@ moveit_simple_controller_manager:
       - elbow_joint
       - wrist_1_joint
       - wrist_2_joint
+      - wrist_3_joint
     action_ns: follow_joint_trajectory
     default: true
-  hand_controller:
-    type: GripperCommand
-    joints:
-      - wrist_3_joint
-      - wrist_3-flange
-      - flange-tool0
-    action_ns: gripper_cmd
-    default: true
+
+ #hand_controller:
+ #  type: GripperCommand
+ #  joints:
+    # - wrist_3_joint
+ #  action_ns: gripper_cmd
+ #  default: true
