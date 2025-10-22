@@ -104,6 +104,7 @@ doc/examples/realtime_servo/servo_cpp_interface_demo: /usr/lib/x86_64-linux-gnu/
 doc/examples/realtime_servo/servo_cpp_interface_demo: /opt/ros/humble/lib/librviz_rendering.so
 doc/examples/realtime_servo/servo_cpp_interface_demo: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 doc/examples/realtime_servo/servo_cpp_interface_demo: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+doc/examples/realtime_servo/servo_cpp_interface_demo: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 doc/examples/realtime_servo/servo_cpp_interface_demo: /usr/lib/x86_64-linux-gnu/libfreetype.so
 doc/examples/realtime_servo/servo_cpp_interface_demo: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 doc/examples/realtime_servo/servo_cpp_interface_demo: /usr/lib/x86_64-linux-gnu/libGLX.so

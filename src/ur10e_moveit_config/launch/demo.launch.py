@@ -1,113 +1,110 @@
 import os
 from launch import LaunchDescription
-from launch.actions import ExecuteProcess, TimerAction, RegisterEventHandler
-from launch.event_handlers import OnProcessStart
+from launch.actions import IncludeLaunchDescription, RegisterEventHandler
+from launch.event_handlers import OnProcessExit
+from launch.substitutions import Command, FindExecutable, PathJoinSubstitution
 from launch_ros.actions import Node
-from ament_index_python.packages import get_package_share_directory
+from launch_ros.substitutions import FindPackageShare
 from moveit_configs_utils import MoveItConfigsBuilder
-from moveit_configs_utils.launches import generate_demo_launch
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch_ros.parameter_descriptions import ParameterValue
 
 def generate_launch_description():
-    ld = LaunchDescription()
 
-    # --- MoveIt2-Konfiguration laden ---
     moveit_config = MoveItConfigsBuilder("ur10e_robot", package_name="ur10e_moveit_config").to_moveit_configs()
 
-    # --- Xacro in URDF konvertieren ---
-    urdf_xacro_path = os.path.join(
-        get_package_share_directory("ur10e_moveit_config"),
-        "config",
-        "ur10e_robot.urdf.xacro"
+    # 1. Pfade zu den Konfigurationsdateien definieren (wie im Tutorial)
+    controllers_config_path = PathJoinSubstitution(
+        [FindPackageShare("ur10e_moveit_config"), "config", "ros2_controllers.yaml"]
     )
-    urdf_path = "/tmp/ur10e_robot.urdf"
-
-    convert_xacro = ExecuteProcess(
-        cmd=['ros2', 'run', 'xacro', 'xacro', urdf_xacro_path, '-o', urdf_path],
-        output='screen'
+    initial_positions_path = PathJoinSubstitution(
+        [FindPackageShare("ur10e_moveit_config"), "config", "initial_positions.yaml"]
     )
-    ld.add_action(convert_xacro)
+    xacro_file_path = PathJoinSubstitution(
+        [FindPackageShare("ur10e_moveit_config"), "config", "ur10e_robot.urdf.xacro"]
+    )
 
-    # --- Gazebo Classic starten ---
-    ld.add_action(ExecuteProcess(
-        cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so',
-             '/usr/share/gazebo-11/worlds/empty.world'],
-        output='screen'
-    ))
+    # 2. 'robot_description' erstellen und die Pfade als Argumente an XACRO übergeben
+    robot_description_content = Command(
+        [
+            FindExecutable(name="xacro"), " ",
+            xacro_file_path, " ",
+            "controllers_file:=", controllers_config_path, " ",
+            "initial_positions_file:=", initial_positions_path,
+        ]
+    )
+    robot_description = {
+        "robot_description": ParameterValue(robot_description_content, value_type=str)
+    }
 
-    # --- Roboter spawnen (nach kurzer Verzögerung, damit Welt geladen ist) ---
-    spawn_robot = TimerAction(
-        period=6.0,
-        actions=[Node(
-            package='gazebo_ros',
-            executable='spawn_entity.py',
-            arguments=[
-                '-entity', 'ur10e_robot',
-                '-file', urdf_path,
-                '-x', '0', '-y', '0', '-z', '0.0'
+    robot_state_publisher_node = Node(
+        package="robot_state_publisher",
+        executable="robot_state_publisher",
+        output="both",
+        parameters=[{"use_sim_time": True}, robot_description],
+    )
+
+    gazebo = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            [FindPackageShare("gazebo_ros"), "/launch", "/gazebo.launch.py"]
+        ),
+    )
+
+    spawn_entity = Node(
+        package="gazebo_ros",
+        executable="spawn_entity.py",
+        arguments=["-topic", "robot_description", "-entity", "ur10e_robot"],
+        output="screen",
+    )
+
+    # 3. Der externe 'controller_manager_node' WURDE HIER ENTFERNT
+
+    # 4. Spawner starten, NACHDEM der Roboter gespawnt ist (Timing ist wichtig)
+    load_controllers = RegisterEventHandler(
+        event_handler=OnProcessExit(
+            target_action=spawn_entity,
+            on_exit=[
+                Node(
+                    package="controller_manager",
+                    executable="spawner",
+                    arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
+                ),
+                Node(
+                    package="controller_manager",
+                    executable="spawner",
+                    arguments=["arm_controller", "--controller-manager", "/controller_manager"],
+                ),
             ],
-            output='screen'
-        )]
-    )
-    ld.add_action(spawn_robot)
-
-    # # --- Tisch spawnen ---
-    # table_file = os.path.join(
-    #     get_package_share_directory("ur10e_moveit_config"),
-    #     "config",
-    #     "simple_table.urdf"
-    # )
-    # spawn_table = TimerAction(
-    #     period=7.0,
-    #     actions=[Node(
-    #         package='gazebo_ros',
-    #         executable='spawn_entity.py',
-    #         arguments=[
-    #             '-entity', 'simple_table',
-    #             '-file', table_file,
-    #             '-x', '0', '-y', '0', '-z', '0.0'
-    #         ],
-    #         output='screen'
-    #     )]
-    # )
-    # ld.add_action(spawn_table)
-
-    joint_state_broadcaster = TimerAction(
-        period=7.5, # nach Spawn, vor dem arm_controller
-        actions=[Node(
-            package="controller_manager",
-            executable="spawner",
-            arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
-            output="screen"
-        )]
-    )
-    ld.add_action(joint_state_broadcaster)
-
-    # --- Controller Spawner starten ---
-    arm_controller = Node(
-            package="controller_manager",
-            executable="spawner",
-            arguments=["arm_controller", "--controller-manager", "/controller_manager"],
-        )
-    ld.add_action(arm_controller)
-
-    set_initial_pose = RegisterEventHandler(
-        event_handler=OnProcessStart(
-            target_action=arm_controller,
-            on_start=[
-                ExecuteProcess(
-                    cmd=['ros2', 'topic', 'pub', '-t', '1', '/arm_controller/joint_trajectory',
-                         'trajectory_msgs/msg/JointTrajectory',
-                         '{ "joint_names": ["shoulder_pan_joint", "shoulder_lift_joint", "elbow_joint", "wrist_1_joint", "wrist_2_joint", "wrist_3_joint"], "points": [ { "positions": [0.0, -1.57, 1.57, -1.57, -1.57, 0.0], "time_from_start": { "sec": 1 } } ] }'
-                    ],
-                    shell=True
-                )
-            ]
         )
     )
-    ld.add_action(set_initial_pose)
 
-    # --- MoveIt Demo starten (RViz + Motion Planning) ---
-    moveit_demo = generate_demo_launch(moveit_config)
-    ld.add_action(moveit_demo)
+    rviz_node = Node(
+        package="rviz2",
+        executable="rviz2",
+        name="rviz2",
+        output="log",
+        arguments=["-d", PathJoinSubstitution([FindPackageShare("ur10e_moveit_config"), "config", "moveit.rviz"])],
+        parameters=[
+            moveit_config.robot_description,
+            moveit_config.robot_description_semantic,
+            moveit_config.robot_description_kinematics,
+        ],
+    )
 
-    return ld
+    move_group_node = Node(
+        package="moveit_ros_move_group",
+        executable="move_group",
+        output="screen",
+        parameters=[moveit_config.to_dict(), {"use_sim_time": True}],
+    )
+
+    return LaunchDescription(
+        [
+            robot_state_publisher_node,
+            gazebo,
+            spawn_entity,
+            load_controllers, # Der externe 'controller_manager_node' ist hier entfernt
+            rviz_node,
+            move_group_node,
+        ]
+    )

@@ -1,0 +1,34 @@
+[0.021s] Invoking command in '/home/matteo-melzer/ws_moveit/build/ur10e_moveit_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/ws_moveit/src/ur10e_moveit_launch -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch
+[0.036s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.155s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.219s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.219s] -- Added test 'lint_cmake' to check CMake code style
+[0.219s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.222s] -- Added test 'xmllint' to check XML markup files
+[0.224s] -- Configuring done
+[0.232s] -- Generating done
+[0.237s] -- Build files have been written to: /home/matteo-melzer/ws_moveit/build/ur10e_moveit_launch
+[0.240s] Invoked command in '/home/matteo-melzer/ws_moveit/build/ur10e_moveit_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/ws_moveit/src/ur10e_moveit_launch -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch
+[0.243s] Invoking command in '/home/matteo-melzer/ws_moveit/build/ur10e_moveit_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/ws_moveit/build/ur10e_moveit_launch -- -j2 -l2
+[0.331s] Invoked command in '/home/matteo-melzer/ws_moveit/build/ur10e_moveit_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/ws_moveit/build/ur10e_moveit_launch -- -j2 -l2
+[0.336s] Invoking command in '/home/matteo-melzer/ws_moveit/build/ur10e_moveit_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/ws_moveit/build/ur10e_moveit_launch
+[0.352s] -- Install configuration: "Release"
+[0.352s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/urdf
+[0.353s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/launch
+[0.353s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/launch/ur_moveit_launch.py
+[0.353s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ament_index/resource_index/package_run_dependencies/ur10e_moveit_launch
+[0.354s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ament_index/resource_index/parent_prefix_path/ur10e_moveit_launch
+[0.354s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/environment/ament_prefix_path.sh
+[0.355s] -- Installing: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/environment/ament_prefix_path.dsv
+[0.355s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/environment/path.sh
+[0.356s] -- Installing: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/environment/path.dsv
+[0.357s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/local_setup.bash
+[0.357s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/local_setup.sh
+[0.357s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/local_setup.zsh
+[0.359s] -- Installing: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/local_setup.dsv
+[0.359s] -- Installing: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/package.dsv
+[0.359s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ament_index/resource_index/packages/ur10e_moveit_launch
+[0.359s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/cmake/ur10e_moveit_launchConfig.cmake
+[0.359s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/cmake/ur10e_moveit_launchConfig-version.cmake
+[0.359s] -- Up-to-date: /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/package.xml
+[0.363s] Invoked command in '/home/matteo-melzer/ws_moveit/build/ur10e_moveit_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/ws_moveit/build/ur10e_moveit_launch

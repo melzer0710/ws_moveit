@@ -300,6 +300,7 @@ trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.5.9: /usr/lib/x86_6
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.5.9: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomap.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.5.9: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomath.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.5.9: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.5.9: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.5.9: /usr/lib/x86_64-linux-gnu/libfreetype.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.5.9: /usr/lib/x86_64-linux-gnu/libz.so
 trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.5.9: /usr/lib/x86_64-linux-gnu/libOpenGL.so

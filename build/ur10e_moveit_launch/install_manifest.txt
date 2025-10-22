@@ -1,4 +1,3 @@
-/home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/urdf/simple_table.urdf
 /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ur10e_moveit_launch/launch/ur_moveit_launch.py
 /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ament_index/resource_index/package_run_dependencies/ur10e_moveit_launch
 /home/matteo-melzer/ws_moveit/install/ur10e_moveit_launch/share/ament_index/resource_index/parent_prefix_path/ur10e_moveit_launch

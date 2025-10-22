@@ -280,6 +280,7 @@ motion_planning_tasks/properties/libmotion_planning_tasks_properties.so: /usr/li
 motion_planning_tasks/properties/libmotion_planning_tasks_properties.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 motion_planning_tasks/properties/libmotion_planning_tasks_properties.so: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 motion_planning_tasks/properties/libmotion_planning_tasks_properties.so: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+motion_planning_tasks/properties/libmotion_planning_tasks_properties.so: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 motion_planning_tasks/properties/libmotion_planning_tasks_properties.so: /usr/lib/x86_64-linux-gnu/libfreetype.so
 motion_planning_tasks/properties/libmotion_planning_tasks_properties.so: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 motion_planning_tasks/properties/libmotion_planning_tasks_properties.so: /usr/lib/x86_64-linux-gnu/libGLX.so

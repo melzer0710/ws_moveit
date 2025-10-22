@@ -391,6 +391,7 @@ collisions_updater: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 collisions_updater: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 collisions_updater: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 collisions_updater: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+collisions_updater: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 collisions_updater: /usr/lib/x86_64-linux-gnu/libfreetype.so
 collisions_updater: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 collisions_updater: /usr/lib/x86_64-linux-gnu/libGLX.so

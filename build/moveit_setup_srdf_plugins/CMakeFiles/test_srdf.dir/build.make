@@ -374,6 +374,7 @@ test_srdf: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 test_srdf: /opt/ros/humble/lib/librviz_rendering.so
 test_srdf: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 test_srdf: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+test_srdf: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 test_srdf: /usr/lib/x86_64-linux-gnu/libfreetype.so
 test_srdf: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 test_srdf: /usr/lib/x86_64-linux-gnu/libGLX.so

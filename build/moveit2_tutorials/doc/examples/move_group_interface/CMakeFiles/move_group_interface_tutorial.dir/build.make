@@ -104,6 +104,7 @@ doc/examples/move_group_interface/move_group_interface_tutorial: /usr/lib/x86_64
 doc/examples/move_group_interface/move_group_interface_tutorial: /opt/ros/humble/lib/librviz_rendering.so
 doc/examples/move_group_interface/move_group_interface_tutorial: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 doc/examples/move_group_interface/move_group_interface_tutorial: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+doc/examples/move_group_interface/move_group_interface_tutorial: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 doc/examples/move_group_interface/move_group_interface_tutorial: /usr/lib/x86_64-linux-gnu/libfreetype.so
 doc/examples/move_group_interface/move_group_interface_tutorial: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 doc/examples/move_group_interface/move_group_interface_tutorial: /usr/lib/x86_64-linux-gnu/libGLX.so

@@ -1,0 +1,64 @@
+[0.031s] Invoking command in '/home/matteo-melzer/ws_moveit/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/ws_moveit/src/moveit_resources/panda_description -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description
+[0.284s] -- The C compiler identification is GNU 11.4.0
+[0.475s] -- The CXX compiler identification is GNU 11.4.0
+[0.496s] -- Detecting C compiler ABI info
+[0.749s] -- Detecting C compiler ABI info - done
+[0.768s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.768s] -- Detecting C compile features
+[0.768s] -- Detecting C compile features - done
+[0.774s] -- Detecting CXX compiler ABI info
+[0.959s] -- Detecting CXX compiler ABI info - done
+[0.972s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.972s] -- Detecting CXX compile features
+[0.973s] -- Detecting CXX compile features - done
+[0.979s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.276s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.608s] -- Configuring done
+[1.611s] -- Generating done
+[1.613s] -- Build files have been written to: /home/matteo-melzer/ws_moveit/build/moveit_resources_panda_description
+[1.621s] Invoked command in '/home/matteo-melzer/ws_moveit/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/ws_moveit/src/moveit_resources/panda_description -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description
+[1.621s] Invoking command in '/home/matteo-melzer/ws_moveit/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/ws_moveit/build/moveit_resources_panda_description -- -j2 -l2
+[1.694s] Invoked command in '/home/matteo-melzer/ws_moveit/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/ws_moveit/build/moveit_resources_panda_description -- -j2 -l2
+[1.694s] Invoking command in '/home/matteo-melzer/ws_moveit/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/ws_moveit/build/moveit_resources_panda_description
+[1.713s] -- Install configuration: ""
+[1.716s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_description
+[1.716s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_description
+[1.716s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.sh
+[1.717s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.dsv
+[1.717s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.sh
+[1.717s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.dsv
+[1.717s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.bash
+[1.717s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.sh
+[1.717s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.zsh
+[1.718s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.dsv
+[1.718s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv
+[1.718s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/ament_index/resource_index/packages/moveit_resources_panda_description
+[1.722s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig.cmake
+[1.722s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig-version.cmake
+[1.722s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.xml
+[1.722s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes
+[1.722s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision
+[1.722s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link2.stl
+[1.722s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link6.stl
+[1.722s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link0.stl
+[1.722s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link5.stl
+[1.722s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link1.stl
+[1.722s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link3.stl
+[1.723s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/hand.stl
+[1.723s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link4.stl
+[1.723s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link7.stl
+[1.723s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/finger.stl
+[1.725s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual
+[1.725s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link3.dae
+[1.731s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link7.dae
+[1.731s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link2.dae
+[1.736s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link1.dae
+[1.741s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/finger.dae
+[1.741s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link0.dae
+[1.745s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link4.dae
+[1.756s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link6.dae
+[1.764s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link5.dae
+[1.770s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/hand.dae
+[1.776s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf
+[1.776s] -- Installing: /home/matteo-melzer/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf/panda.urdf
+[1.780s] Invoked command in '/home/matteo-melzer/ws_moveit/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/ws_moveit/build/moveit_resources_panda_description

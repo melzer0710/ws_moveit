@@ -1,1 +1,37 @@
-/home/matteo-melzer/ws_moveit/src/ur10e_moveit_config/config/simple_table.urdf.xacro
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Macro-Definition für einen simplen Tisch -->
+  <xacro:macro name="simple_table" params="prefix parent xyz:='0 0 0' rpy:='0 0 0'">
+
+    <link name="${prefix}table_top">
+      <visual>
+        <geometry>
+          <box size="5.0 5.0 0.05"/> <!-- Länge, Breite, Höhe -->
+        </geometry>
+        <material name="brown">
+          <color rgba="0.6 0.4 0.2 1"/>
+        </material>
+      </visual>
+      <collision>
+        <geometry>
+          <box size="5.0 5.0 0.05"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <mass value="10000.0"/> <origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="208333.3" ixy="0.0" ixz="0.0"
+                 iyy="208333.3" iyz="0.0"
+                 izz="416666.7"/>
+      </inertial>
+    </link>
+
+    <joint name="${prefix}table_fixed" type="fixed">
+      <parent link="${parent}"/>
+      <child link="${prefix}table_top"/>
+      <origin xyz="${xyz}" rpy="${rpy}"/>
+    </joint>
+
+  </xacro:macro>
+
+</robot>

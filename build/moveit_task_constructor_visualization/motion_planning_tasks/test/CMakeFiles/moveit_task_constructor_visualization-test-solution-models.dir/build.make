@@ -265,6 +265,7 @@ motion_planning_tasks/test/moveit_task_constructor_visualization-test-solution-m
 motion_planning_tasks/test/moveit_task_constructor_visualization-test-solution-models: /opt/ros/humble/lib/librviz_rendering.so
 motion_planning_tasks/test/moveit_task_constructor_visualization-test-solution-models: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 motion_planning_tasks/test/moveit_task_constructor_visualization-test-solution-models: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+motion_planning_tasks/test/moveit_task_constructor_visualization-test-solution-models: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 motion_planning_tasks/test/moveit_task_constructor_visualization-test-solution-models: /usr/lib/x86_64-linux-gnu/libfreetype.so
 motion_planning_tasks/test/moveit_task_constructor_visualization-test-solution-models: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 motion_planning_tasks/test/moveit_task_constructor_visualization-test-solution-models: /usr/lib/x86_64-linux-gnu/libGLX.so

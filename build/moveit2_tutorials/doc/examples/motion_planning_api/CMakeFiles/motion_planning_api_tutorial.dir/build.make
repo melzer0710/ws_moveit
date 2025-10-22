@@ -104,6 +104,7 @@ doc/examples/motion_planning_api/motion_planning_api_tutorial: /usr/lib/x86_64-l
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/lib/librviz_rendering.so
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+doc/examples/motion_planning_api/motion_planning_api_tutorial: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /usr/lib/x86_64-linux-gnu/libfreetype.so
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 doc/examples/motion_planning_api/motion_planning_api_tutorial: /usr/lib/x86_64-linux-gnu/libGLX.so

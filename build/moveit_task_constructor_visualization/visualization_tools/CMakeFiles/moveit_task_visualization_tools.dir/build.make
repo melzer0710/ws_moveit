@@ -277,6 +277,7 @@ visualization_tools/libmoveit_task_visualization_tools.so.0.1.3: /usr/lib/x86_64
 visualization_tools/libmoveit_task_visualization_tools.so.0.1.3: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 visualization_tools/libmoveit_task_visualization_tools.so.0.1.3: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 visualization_tools/libmoveit_task_visualization_tools.so.0.1.3: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+visualization_tools/libmoveit_task_visualization_tools.so.0.1.3: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 visualization_tools/libmoveit_task_visualization_tools.so.0.1.3: /usr/lib/x86_64-linux-gnu/libfreetype.so
 visualization_tools/libmoveit_task_visualization_tools.so.0.1.3: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 visualization_tools/libmoveit_task_visualization_tools.so.0.1.3: /usr/lib/x86_64-linux-gnu/libGLX.so

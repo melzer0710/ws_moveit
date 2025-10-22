@@ -541,6 +541,7 @@ libmoveit_setup_core_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15
 libmoveit_setup_core_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 libmoveit_setup_core_plugins.so: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 libmoveit_setup_core_plugins.so: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+libmoveit_setup_core_plugins.so: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 libmoveit_setup_core_plugins.so: /usr/lib/x86_64-linux-gnu/libfreetype.so
 libmoveit_setup_core_plugins.so: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 libmoveit_setup_core_plugins.so: /usr/lib/x86_64-linux-gnu/libGLX.so

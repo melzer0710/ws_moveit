@@ -1,1 +1,24 @@
-/home/matteo-melzer/ws_moveit/src/ur10e_moveit_config/config/ur10e_robot.urdf.xacro
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ur10e_robot">
+
+    <xacro:arg name="controllers_file" default="ros2_controllers.yaml"/>
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml"/>
+
+    <link name="world"/>
+    <xacro:include filename="$(find ur_description)/urdf/ur10e.urdf" />
+    <xacro:include filename="ur10e_robot.ros2_control.xacro" />
+    <xacro:include filename="$(find ur10e_moveit_config)/config/simple_table.urdf.xacro"/>
+    <xacro:simple_table prefix="table_" parent="world" xyz="0 0 0" rpy="0 0 0"/>
+
+    <joint name="ur10e_on_table" type="fixed">
+        <parent link="table_table_top"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0.025" rpy="0 0 0"/>
+    </joint>
+
+    <xacro:ur10e_robot_ros2_control
+        controllers_file="$(arg controllers_file)"
+        initial_positions_file="$(arg initial_positions_file)"
+    />
+
+</robot>

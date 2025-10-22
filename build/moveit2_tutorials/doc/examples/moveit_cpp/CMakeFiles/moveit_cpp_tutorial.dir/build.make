@@ -104,6 +104,7 @@ doc/examples/moveit_cpp/moveit_cpp_tutorial: /usr/lib/x86_64-linux-gnu/libyaml-c
 doc/examples/moveit_cpp/moveit_cpp_tutorial: /opt/ros/humble/lib/librviz_rendering.so
 doc/examples/moveit_cpp/moveit_cpp_tutorial: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 doc/examples/moveit_cpp/moveit_cpp_tutorial: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+doc/examples/moveit_cpp/moveit_cpp_tutorial: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 doc/examples/moveit_cpp/moveit_cpp_tutorial: /usr/lib/x86_64-linux-gnu/libfreetype.so
 doc/examples/moveit_cpp/moveit_cpp_tutorial: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 doc/examples/moveit_cpp/moveit_cpp_tutorial: /usr/lib/x86_64-linux-gnu/libGLX.so

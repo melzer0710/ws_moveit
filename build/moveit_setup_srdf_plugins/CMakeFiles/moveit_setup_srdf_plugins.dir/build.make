@@ -879,6 +879,7 @@ libmoveit_setup_srdf_plugins.so: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 libmoveit_setup_srdf_plugins.so: /opt/ros/humble/lib/librviz_rendering.so
 libmoveit_setup_srdf_plugins.so: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 libmoveit_setup_srdf_plugins.so: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+libmoveit_setup_srdf_plugins.so: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 libmoveit_setup_srdf_plugins.so: /usr/lib/x86_64-linux-gnu/libfreetype.so
 libmoveit_setup_srdf_plugins.so: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 libmoveit_setup_srdf_plugins.so: /usr/lib/x86_64-linux-gnu/libGLX.so

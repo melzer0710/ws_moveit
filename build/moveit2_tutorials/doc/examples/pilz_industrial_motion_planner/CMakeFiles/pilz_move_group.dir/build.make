@@ -104,6 +104,7 @@ doc/examples/pilz_industrial_motion_planner/pilz_move_group: /usr/lib/x86_64-lin
 doc/examples/pilz_industrial_motion_planner/pilz_move_group: /opt/ros/humble/lib/librviz_rendering.so
 doc/examples/pilz_industrial_motion_planner/pilz_move_group: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 doc/examples/pilz_industrial_motion_planner/pilz_move_group: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+doc/examples/pilz_industrial_motion_planner/pilz_move_group: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 doc/examples/pilz_industrial_motion_planner/pilz_move_group: /usr/lib/x86_64-linux-gnu/libfreetype.so
 doc/examples/pilz_industrial_motion_planner/pilz_move_group: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 doc/examples/pilz_industrial_motion_planner/pilz_move_group: /usr/lib/x86_64-linux-gnu/libGLX.so

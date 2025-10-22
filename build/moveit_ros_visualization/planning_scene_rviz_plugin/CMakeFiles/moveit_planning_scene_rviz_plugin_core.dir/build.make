@@ -135,6 +135,7 @@ planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin_core.so.2.5.9: /
 planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin_core.so.2.5.9: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin_core.so.2.5.9: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin_core.so.2.5.9: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin_core.so.2.5.9: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin_core.so.2.5.9: /usr/lib/x86_64-linux-gnu/libfreetype.so
 planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin_core.so.2.5.9: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin_core.so.2.5.9: /usr/lib/x86_64-linux-gnu/libGLX.so

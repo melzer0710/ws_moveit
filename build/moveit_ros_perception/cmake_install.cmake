@@ -284,7 +284,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_pointcloud_octomap_updater.so.2.5.9")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_pointcloud_octomap_updater.so.2.5.9"
-         OLD_RPATH "/home/matteo-melzer/ws_moveit/build/moveit_ros_perception/pointcloud_octomap_updater:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/matteo-melzer/ws_moveit/build/moveit_ros_perception/point_containment_filter:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/build/moveit_ros_perception/pointcloud_octomap_updater:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/matteo-melzer/ws_moveit/build/moveit_ros_perception/point_containment_filter:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_pointcloud_octomap_updater.so.2.5.9")
@@ -304,7 +304,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_pointcloud_octomap_updater.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_pointcloud_octomap_updater.so"
-         OLD_RPATH "/home/matteo-melzer/ws_moveit/build/moveit_ros_perception/pointcloud_octomap_updater:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/matteo-melzer/ws_moveit/build/moveit_ros_perception/point_containment_filter:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/build/moveit_ros_perception/pointcloud_octomap_updater:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/matteo-melzer/ws_moveit/build/moveit_ros_perception/point_containment_filter:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_pointcloud_octomap_updater.so")
@@ -324,7 +324,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_pointcloud_octomap_updater_core.so.2.5.9")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_pointcloud_octomap_updater_core.so.2.5.9"
-         OLD_RPATH "/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/build/moveit_ros_perception/point_containment_filter:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/build/moveit_ros_perception/point_containment_filter:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_pointcloud_octomap_updater_core.so.2.5.9")
@@ -344,7 +344,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_pointcloud_octomap_updater_core.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_pointcloud_octomap_updater_core.so"
-         OLD_RPATH "/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/build/moveit_ros_perception/point_containment_filter:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/build/moveit_ros_perception/point_containment_filter:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_pointcloud_octomap_updater_core.so")

@@ -1,39 +1,24 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ur10e_robot">
-    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
 
-    <!-- Dummy link "world" als Basis der Szene -->
+    <xacro:arg name="controllers_file" default="ros2_controllers.yaml"/>
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml"/>
+
     <link name="world"/>
-    
-    <!-- Import ur10e_robot URDF -->
     <xacro:include filename="$(find ur_description)/urdf/ur10e.urdf" />
-
-    <!-- Import ros2_control -->
     <xacro:include filename="ur10e_robot.ros2_control.xacro" />
-
-    <!-- Import table macro -->
     <xacro:include filename="$(find ur10e_moveit_config)/config/simple_table.urdf.xacro"/>
-
-    <!-- Instantiate table and attach to world -->
     <xacro:simple_table prefix="table_" parent="world" xyz="0 0 0" rpy="0 0 0"/>
 
-    <!-- Fix the UR10e base on top of the table -->
     <joint name="ur10e_on_table" type="fixed">
         <parent link="table_table_top"/>
         <child link="base_link"/>
-        <!-- Z-Versatz entspricht Tischhöhe (0.05 m dick) -->
         <origin xyz="0 0 0.025" rpy="0 0 0"/>
     </joint>
 
-    <!-- ROS2 control plugin -->
-    <xacro:ur10e_robot_ros2_control name="GazeboSystem" initial_positions_file="$(arg initial_positions_file)"/>
-    
-    <!-- ros2_control Gazebo Plugin -->
-    <gazebo>
-    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
-        <robot_namespace>/</robot_namespace>
-        <ros_control_namespace>/</ros_control_namespace>
-    </plugin>
-    </gazebo>
+    <xacro:ur10e_robot_ros2_control
+        controllers_file="$(arg controllers_file)"
+        initial_positions_file="$(arg initial_positions_file)"
+    />
 
 </robot>

@@ -463,6 +463,7 @@ moveit_setup_assistant: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 moveit_setup_assistant: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 moveit_setup_assistant: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 moveit_setup_assistant: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+moveit_setup_assistant: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 moveit_setup_assistant: /usr/lib/x86_64-linux-gnu/libfreetype.so
 moveit_setup_assistant: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 moveit_setup_assistant: /usr/lib/x86_64-linux-gnu/libGLX.so

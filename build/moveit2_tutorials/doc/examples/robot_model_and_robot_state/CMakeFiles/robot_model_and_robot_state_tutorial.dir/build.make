@@ -104,6 +104,7 @@ doc/examples/robot_model_and_robot_state/robot_model_and_robot_state_tutorial: /
 doc/examples/robot_model_and_robot_state/robot_model_and_robot_state_tutorial: /opt/ros/humble/lib/librviz_rendering.so
 doc/examples/robot_model_and_robot_state/robot_model_and_robot_state_tutorial: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 doc/examples/robot_model_and_robot_state/robot_model_and_robot_state_tutorial: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+doc/examples/robot_model_and_robot_state/robot_model_and_robot_state_tutorial: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 doc/examples/robot_model_and_robot_state/robot_model_and_robot_state_tutorial: /usr/lib/x86_64-linux-gnu/libfreetype.so
 doc/examples/robot_model_and_robot_state/robot_model_and_robot_state_tutorial: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 doc/examples/robot_model_and_robot_state/robot_model_and_robot_state_tutorial: /usr/lib/x86_64-linux-gnu/libGLX.so

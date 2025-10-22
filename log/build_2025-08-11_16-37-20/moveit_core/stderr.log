@@ -1,4 +1,0 @@
-[0mmoveit_core: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
-gmake[2]: *** [transforms/CMakeFiles/test_transforms.dir/build.make:76: transforms/CMakeFiles/test_transforms.dir/test/test_transforms.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:2076: transforms/CMakeFiles/test_transforms.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

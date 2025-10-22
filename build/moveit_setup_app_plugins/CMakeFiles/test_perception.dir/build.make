@@ -340,6 +340,7 @@ test_perception: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 test_perception: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 test_perception: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 test_perception: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+test_perception: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 test_perception: /usr/lib/x86_64-linux-gnu/libfreetype.so
 test_perception: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 test_perception: /usr/lib/x86_64-linux-gnu/libGLX.so

@@ -119,6 +119,7 @@ robot_state_rviz_plugin/libmoveit_robot_state_rviz_plugin.so.2.5.9: /usr/lib/x86
 robot_state_rviz_plugin/libmoveit_robot_state_rviz_plugin.so.2.5.9: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 robot_state_rviz_plugin/libmoveit_robot_state_rviz_plugin.so.2.5.9: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 robot_state_rviz_plugin/libmoveit_robot_state_rviz_plugin.so.2.5.9: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+robot_state_rviz_plugin/libmoveit_robot_state_rviz_plugin.so.2.5.9: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 robot_state_rviz_plugin/libmoveit_robot_state_rviz_plugin.so.2.5.9: /usr/lib/x86_64-linux-gnu/libfreetype.so
 robot_state_rviz_plugin/libmoveit_robot_state_rviz_plugin.so.2.5.9: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 robot_state_rviz_plugin/libmoveit_robot_state_rviz_plugin.so.2.5.9: /usr/lib/x86_64-linux-gnu/libGLX.so

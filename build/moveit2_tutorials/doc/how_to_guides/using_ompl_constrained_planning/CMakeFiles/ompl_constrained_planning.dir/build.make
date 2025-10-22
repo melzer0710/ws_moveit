@@ -104,6 +104,7 @@ doc/how_to_guides/using_ompl_constrained_planning/ompl_constrained_planning: /us
 doc/how_to_guides/using_ompl_constrained_planning/ompl_constrained_planning: /opt/ros/humble/lib/librviz_rendering.so
 doc/how_to_guides/using_ompl_constrained_planning/ompl_constrained_planning: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 doc/how_to_guides/using_ompl_constrained_planning/ompl_constrained_planning: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+doc/how_to_guides/using_ompl_constrained_planning/ompl_constrained_planning: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 doc/how_to_guides/using_ompl_constrained_planning/ompl_constrained_planning: /usr/lib/x86_64-linux-gnu/libfreetype.so
 doc/how_to_guides/using_ompl_constrained_planning/ompl_constrained_planning: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 doc/how_to_guides/using_ompl_constrained_planning/ompl_constrained_planning: /usr/lib/x86_64-linux-gnu/libGLX.so

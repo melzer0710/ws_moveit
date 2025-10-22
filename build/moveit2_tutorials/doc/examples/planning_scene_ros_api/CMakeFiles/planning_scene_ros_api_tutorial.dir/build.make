@@ -104,6 +104,7 @@ doc/examples/planning_scene_ros_api/planning_scene_ros_api_tutorial: /usr/lib/x8
 doc/examples/planning_scene_ros_api/planning_scene_ros_api_tutorial: /opt/ros/humble/lib/librviz_rendering.so
 doc/examples/planning_scene_ros_api/planning_scene_ros_api_tutorial: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 doc/examples/planning_scene_ros_api/planning_scene_ros_api_tutorial: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+doc/examples/planning_scene_ros_api/planning_scene_ros_api_tutorial: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 doc/examples/planning_scene_ros_api/planning_scene_ros_api_tutorial: /usr/lib/x86_64-linux-gnu/libfreetype.so
 doc/examples/planning_scene_ros_api/planning_scene_ros_api_tutorial: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 doc/examples/planning_scene_ros_api/planning_scene_ros_api_tutorial: /usr/lib/x86_64-linux-gnu/libGLX.so

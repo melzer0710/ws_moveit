@@ -552,6 +552,7 @@ libmoveit_setup_framework.so: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_gen
 libmoveit_setup_framework.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 libmoveit_setup_framework.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 libmoveit_setup_framework.so: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+libmoveit_setup_framework.so: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 libmoveit_setup_framework.so: /usr/lib/x86_64-linux-gnu/libfreetype.so
 libmoveit_setup_framework.so: /usr/lib/x86_64-linux-gnu/libz.so
 libmoveit_setup_framework.so: /usr/lib/x86_64-linux-gnu/libOpenGL.so

@@ -74,7 +74,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_global_planner_component.so.2.5.9")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_global_planner_component.so.2.5.9"
-         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_global_planner_component.so.2.5.9")
@@ -94,7 +94,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_global_planner_component.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_global_planner_component.so"
-         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_global_planner_component.so")
@@ -114,7 +114,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_hybrid_planning_manager.so.2.5.9")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_hybrid_planning_manager.so.2.5.9"
-         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_hybrid_planning_manager.so.2.5.9")
@@ -134,7 +134,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_hybrid_planning_manager.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_hybrid_planning_manager.so"
-         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_hybrid_planning_manager.so")
@@ -154,7 +154,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_local_planner_component.so.2.5.9")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_local_planner_component.so.2.5.9"
-         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_local_planner_component.so.2.5.9")
@@ -174,7 +174,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_local_planner_component.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_local_planner_component.so"
-         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_local_planner_component.so")
@@ -194,7 +194,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libforward_trajectory_plugin.so.2.5.9")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libforward_trajectory_plugin.so.2.5.9"
-         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libforward_trajectory_plugin.so.2.5.9")
@@ -214,7 +214,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libforward_trajectory_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libforward_trajectory_plugin.so"
-         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libforward_trajectory_plugin.so")
@@ -234,7 +234,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_pipeline_plugin.so.2.5.9")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_pipeline_plugin.so.2.5.9"
-         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_pipeline_plugin.so.2.5.9")
@@ -254,7 +254,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_pipeline_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_pipeline_plugin.so"
-         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmotion_planning_pipeline_plugin.so")
@@ -314,7 +314,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsimple_sampler_plugin.so.2.5.9")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsimple_sampler_plugin.so.2.5.9"
-         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsimple_sampler_plugin.so.2.5.9")
@@ -334,7 +334,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsimple_sampler_plugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsimple_sampler_plugin.so"
-         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/matteo-melzer/ws_moveit/install/moveit_ros_planning_interface/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_move_group/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_warehouse/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_planning/lib:/home/matteo-melzer/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/matteo-melzer/ws_moveit/install/moveit_core/lib:/opt/ros/humble/lib:/home/matteo-melzer/ws_moveit/install/srdfdom/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsimple_sampler_plugin.so")

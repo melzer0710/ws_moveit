@@ -104,6 +104,7 @@ doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: 
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/lib/librviz_rendering.so
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /usr/lib/x86_64-linux-gnu/libfreetype.so
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 doc/tutorials/pick_and_place_with_moveit_task_constructor/minimal_mtc_tutorial: /usr/lib/x86_64-linux-gnu/libGLX.so

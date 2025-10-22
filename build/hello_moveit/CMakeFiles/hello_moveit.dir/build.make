@@ -229,6 +229,7 @@ hello_moveit: /opt/ros/humble/lib/libresource_retriever.so
 hello_moveit: /usr/lib/x86_64-linux-gnu/libcurl.so
 hello_moveit: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 hello_moveit: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+hello_moveit: /usr/lib/x86_64-linux-gnu/libfreeimage.so
 hello_moveit: /usr/lib/x86_64-linux-gnu/libfreetype.so
 hello_moveit: /usr/lib/x86_64-linux-gnu/libz.so
 hello_moveit: /usr/lib/x86_64-linux-gnu/libOpenGL.so
